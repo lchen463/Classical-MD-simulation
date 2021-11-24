@@ -1,0 +1,49 @@
+bond_coeff 	         1 268 1.529	# CT	CT
+bond_coeff 	         2 320 1.41	# CT	OS
+bond_coeff 	         3 340 1.09	# CT	HC
+bond_coeff 	         4 340 1.09	# CT	HC
+bond_coeff 	         5 320 1.41	# CT	OH
+bond_coeff 	         6 553 0.945	# HO	OH
+angle_coeff 	         1 50 109.5	# CT	CT	OS
+angle_coeff 	         2 37.5 110.7	# CT	CT	HC
+angle_coeff 	         3 35 109.5	# HC	CT	OS
+angle_coeff 	         4 33 107.8	# HC	CT	HC
+angle_coeff 	         5 37.5 110.7	# CT	CT	HC
+angle_coeff 	         6 33 107.8	# HC	CT	HC
+angle_coeff 	         7 60 109.5	# CT	OS	CT
+angle_coeff 	         8 50 109.5	# CT	CT	OH
+angle_coeff 	         9 35 109.5	# HC	CT	OH
+angle_coeff 	        10 55 108.5	# CT	OH	HO
+dihedral_coeff 	         1 0 0 0.468 0	# HC	CT	CT	OS
+dihedral_coeff 	         2 0 0 0.3 0	# HC	CT	CT	HC
+dihedral_coeff 	         3 0.65 -0.25 0.67 0	# CT	CT	OS	CT
+dihedral_coeff 	         4 0 0 0.76 0	# HC	CT	OS	CT
+dihedral_coeff 	         5 0 0 0.468 0	# HC	CT	CT	OS
+dihedral_coeff 	         6 -0.55 0 0 0	# OS	CT	CT	OS
+dihedral_coeff 	         7 0 0 0.3 0	# HC	CT	CT	HC
+dihedral_coeff 	         8 0 0 0.468 0	# HC	CT	CT	OH
+dihedral_coeff 	         9 4.319 0 0 0	# OH	CT	CT	OS
+dihedral_coeff 	        10 -0.356 -0.174 0.492 0	# CT	CT	OH	HO
+dihedral_coeff 	        11 0 0 0.352 0	# HC	CT	OH	HO
+improper_coeff 	         1 0.0 0.0	# CT	CT	HC3	OS
+improper_coeff 	         2 0 0	# CT	CT	HC	HC
+improper_coeff 	         3 0.0 0.0	# HC3	CT	HC3	OS
+improper_coeff 	         4 0 0	# CT	CT	HC	HC
+improper_coeff 	         5 0.0 0.0	# HC	CT	HC	HC
+improper_coeff 	         6 0.0 0.0	# CT	CT	HC	OH
+improper_coeff 	         7 0.0 0.0	# HC	CT	HC	OH
+improper_coeff 	         1 aa 0.0 0.0 0.0 120.0 120.0 120.0	# CT	CT	HC3	OS
+improper_coeff 	         2 aa 0.0 0.0 0.0 120.0 120.0 120.0	# CT	CT	HC	HC
+improper_coeff 	         3 aa 0.0 0.0 0.0 120.0 120.0 120.0	# HC3	CT	HC3	OS
+improper_coeff 	         4 aa 0.0 0.0 0.0 120.0 120.0 120.0	# CT	CT	HC	HC
+improper_coeff 	         5 aa 0.0 0.0 0.0 120.0 120.0 120.0	# HC	CT	HC	HC
+improper_coeff 	         6 aa 0.0 0.0 0.0 120.0 120.0 120.0	# CT	CT	HC	OH
+improper_coeff 	         7 aa 0.0 0.0 0.0 120.0 120.0 120.0	# HC	CT	HC	OH
+pair_coeff			    1     1   0.06600   3.49998	# CT - 
+pair_coeff			    2     2   0.03000   2.50004	# HC - 
+pair_coeff			    3     3   0.03000   2.50004	# HC - 
+pair_coeff			    4     4 0.00000e+000   0.00000	# HO - 
+pair_coeff			    5     5   0.17000   3.12002	# OH - 
+pair_coeff			    6     6   0.14000   2.89996	# OS - 
+
+
