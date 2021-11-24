@@ -1,2 +1,1 @@
-# polymers
-DFT, MD and ML work
+DFT and MD work of polymers
