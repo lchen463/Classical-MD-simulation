@@ -1,0 +1,18 @@
+bond_coeff 	         1 268 1.529	# CT	CT
+bond_coeff 	         2 340 1.09	# CT	HC
+angle_coeff 	         1 37.5 110.7	# CT	CT	HC
+angle_coeff 	         2 33 107.8	# HC	CT	HC
+angle_coeff 	         3 58.35 112.7	# CT	CT	CT
+dihedral_coeff 	         1 0 0 0.3 0	# HC	CT	CT	HC
+dihedral_coeff 	         2 0 0 0.3 0	# CT	CT	CT	HC
+dihedral_coeff 	         3 1.3 -0.05 0.2 0	# CT	CT	CT	CT
+improper_coeff 	         1 0 0	# CT	CT	HC	HC
+improper_coeff 	         2 0.0 0.0	# HC	CT	HC	HC
+improper_coeff 	         3 0.0 0.0	# CT	CT	CT	HC
+improper_coeff 	         1 aa 0.0 0.0 0.0 120.0 120.0 120.0	# CT	CT	HC	HC
+improper_coeff 	         2 aa 0.0 0.0 0.0 120.0 120.0 120.0	# HC	CT	HC	HC
+improper_coeff 	         3 aa 0.0 0.0 0.0 120.0 120.0 120.0	# CT	CT	CT	HC
+pair_coeff			    1     1   0.06600   3.49998	# CT - 
+pair_coeff			    2     2   0.03000   2.50004	# HC - 
+
+

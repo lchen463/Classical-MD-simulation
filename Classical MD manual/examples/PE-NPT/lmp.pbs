@@ -1,0 +1,14 @@
+# This is an example PBS script
+#PBS -N opls
+#PBS -l nodes=1:ppn=24
+#PBS -l walltime=4:00:00
+#PBS -q gaanam
+#PBS -j oe
+#PBS -o $PBS_JOBID
+cd $PBS_O_WORKDIR
+ module load gcc
+ module load intel/15.0 
+ module load mvapich2/2.0 
+ module load fftw/3.3.4 
+ module load mkl/11.2 
+ mpirun ~/bin/lmp_mpi <in.lmp> log 
